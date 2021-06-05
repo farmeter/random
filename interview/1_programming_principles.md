@@ -1,4 +1,4 @@
-(San, Hirako. Cracking the Full Stack Developer Interview: The Complete Handbook to Land the Job (p. 13). Hirako Publishing. Kindle Edition.)
+(San, Hirako. Cracking the Full Stack Developer Interview: The Complete Handbook to Land the Job (p. 13~). Hirako Publishing. Kindle Edition.)
 
 ## What is Object Oriented Programming?
 Object Oriented Programmig(OOP) is programming paradigm where the complete
@@ -55,4 +55,29 @@ and it may or may not return the same value in the same class itself.
 
 Overriding is the same method names with same arguments associated with the class 
 and its child class.
+
+## What are access modifiers? 
+Access modifiers determine the scope of the method or variables 
+that can be accessed from other various objects or classes.
+
+## What is exception handling?
+An exception is an event that occurs during the execution of a program.
+Many exceptions types exist - runtime exception, error exceptions, etc.
+those exceptions are adequately handled through exception handling mechanism using the
+try catch and throw keywords.
+
+## what is encapsulation?
+Encapsulation refeters to one of the following two notions.
+ - Data hiding: A language feature to restrict access to members of an object.
+ For example, private and protected mebers in C++
+ - Bundling of data and methods together: Data and methods that operate on that data are bundled together.
+
+## What is Polymorphism?
+Polymorphism means that some code or operations or objects behave
+differently in different context.
+
+## What is Inheritance? What is its purpose?
+The idea of inheritance is that a class(called child or sub class) is based on
+another class(parent or super class) and uses data and implementation of that other class.
+The purpose of inheritance is code/login reuse.
 
