@@ -98,4 +98,11 @@ Interface
  - Interface is functionality-oriented. It defines functionalities an object should have. Regardless what object it is, as long as it can do these funtionalities, which are defined in the interface, it's fine. It ignores everything else. An object/class can contin several (groups of) functionalities; hence it is possible for a class to implement multiple interfaces.
  - Interface provides "has a" capability for classes.
 
+## Typical Object-Oriented Programming Challenges
+ - How would you design a chess game? What classes and objects would you use? What methods would they have?
+ - How would you design the data structures of book keeping system for a alibrary?
+ - Explain how you would design an HTTP server? Give examples of classes, methods, and interfaces. What are the challenges here?
+ - Discuss algorithms and data structures for a garbage collector?
+ - How would you implement an HR system to keep track of employee salaries and benefits?
+
 
