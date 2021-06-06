@@ -1,0 +1,38 @@
+San, Hirako. Cracking the Full Stack Developer Interview: The Complete Handbook to Land the Job (p. 17~). Hirako Publishing. Kindle Edition. 
+
+# Funtional Programming
+## What is functional programming?
+Functional programming produces program by composing mathematical functions and avoid shared state, mutable data.
+Lips was among the first languages to support functional programming and was heavily inspired by lambda calculus
+Lisp and many Lisp family languages are still in everyday use today.
+
+Functional programming is an essential concept in JavaScript, it is declarative rather than imperative,
+and application state flows through purefunctions.
+Contrast with object oriented programming, where application state is usually shared and colocated with methods in objects.
+
+Functional code tends to be more concise, more predictable, and easier to test than imperative or object oriented code.
+
+## What is a Pure function?
+A pure function is a fuction which
+ - Given the same inputs, always return the same output
+ - Has no side-effects
+ - Pure functions have lots of properties that are important in functional programming, including referential transparency
+
+## What is the meaning of Side Effect?
+A side effect is any applications state change that is observable outside the called function other than its return value
+Side effects include
+ - Modifying any external variable or object property(e.g a global variable)
+ - Loggintg to the console
+ - Writing to the screen
+
+## what is Immutablilty?
+An immutable object is an object that can't get its state modified after its creation.
+
+## what is a higher order function?
+Higher order functions are functions that take a function as an argument, returns a function, or both.
+They are often used to
+ - Abstract or isolate actions, effects, or async flow control using callback functions, promises, etc.
+ - Create utilities whcih can act on a side variety of data types.
+ - Partially apply a function to its argument or create a curried function for the purpose of reuse or function composition
+ - Take a list of functions and return some composition of those input functions.
+
