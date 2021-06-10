@@ -66,7 +66,42 @@ The solution chould not search the list twice.
 4. How can you tell if a Linked List a Palindrome?
 
 ## Tree
+1. Find the height of a binary tree.
+2. Find the deepest left leaf of a binary tree.
+3. Given the roots of a tree. Print out all of its root-to-leaf paths one per line.
+4. Given a binary tree, print level order traversal in a way that nodes of all levels are printed in seperate lines
+5. Determine if a binary tree is "complete"(i.e, if all leaf nodes were either at the maximum depth or max depth-1, and were 'pressed' along the left side of the t ree)
+6. Determine if a binary tree is a BST.
+7. Given a binary tree, serialize it into a string. Then deserialize it.
+8. Given a node, find the next element in a BST.
+9. pretty print a JSON object.
+10. Convert a binary tree to a doubly circular linked list.
+11. Find the second largest number in a binary tree.
+12. Convert a tree to a linked list.
+13. Find the Deepest node in a Binary tree.
 
+## Trie
+Tries are special trees that make searching and storing strings more efficient
+
+## Heap
+If you require the top k elements use a Min Heal of size k.
+Iterate through each element, pushing it into the heap. Whenever the heap size exceeds k, remove the minimum element,
+that will guarantee that you have the k largest elements.
+
+# Recursion & Dynamic Programming
+## Recursion
+Recursion is useful for permutation, because itgenerates all combinations and tree-based questions.
+You should know how to generate all permutations of a sequence as well as how to handle duplicates.
+1. Given two number x and y find their product using recursion.
+2. Given a number, write a function that returns the sum of its digits using recursion. e.g. "1234" should return 10.
+
+## Dynamic Programming(DP)
+Dynamic Programming is usually used to solve optimazation problems.
+The only way to get better at DP is to practice. It takes some amount of practice to be able to recognize that a problem can be solved by DP.
+1. There are N stations on route of a train. The train goes from station 0 to N-1. The ticket cost for all pair of stations (i,j) is geven where j is greater than i.
+Find the minimum cost to reach the destination.
+2. Given N friends, each one can remain single or can be paired up with some other friend.
+Each friend can be paried only once. Find out the total number of ways in which friends can remain single or can be paired up.
 
 
 
