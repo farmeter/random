@@ -31,3 +31,12 @@ application layer accepts.
 7. Applications LAyer : The is the last layer of OSI Reference Mode land is the one which is close to the end user.
 Both end-user and application layer interacts with the software application. This layer provides services for email, 
 file transfer etc.
+
+## How can a network be certified as an effective network? What are the factors affecting them?
+A network can be certified as an effective network based on below-menthioned points:
+- Performance : Anetwork's performance is based on its transmitted time and response time. The factors affecting the 
+performance of a network are hardware, software, transmission medium types and the number of users using the network.
+- Reliability : Reliability is nothing but measuring the probability of failures occurred in a network and the time taken by it torecover from it. The factors affecting the same are the frequency of failure and revoery time from failure.
+- Security: Protecting the data from malware and unauthorized users. The factors affecting the security are malware and users who do not have permission to access the network.
+
+
