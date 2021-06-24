@@ -39,4 +39,9 @@ performance of a network are hardware, software, transmission medium types and t
 - Reliability : Reliability is nothing but measuring the probability of failures occurred in a network and the time taken by it torecover from it. The factors affecting the same are the frequency of failure and revoery time from failure.
 - Security: Protecting the data from malware and unauthorized users. The factors affecting the security are malware and users who do not have permission to access the network.
 
+# Protocols
+## Exaplin the TCP/IP Model
+It stands for Transmaission Control Protocol and Internet Protocol and is the most widely used and available protocol.
+TCP/IP specifies how data should be packaged, transmitted and routed
+
 
