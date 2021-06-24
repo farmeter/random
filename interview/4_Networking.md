@@ -42,6 +42,22 @@ performance of a network are hardware, software, transmission medium types and t
 # Protocols
 ## Exaplin the TCP/IP Model
 It stands for Transmaission Control Protocol and Internet Protocol and is the most widely used and available protocol.
-TCP/IP specifies how data should be packaged, transmitted and routed
+TCP/IP specifies how data should be packaged, transmitted and routed in their end to end data communicatinos.
+It consists of 4 layers:
+1. Application layer : This is the top layer in tcp/ip model. It includes processes which use Transport layer protocol to transmit the data to thier destinations. There are differenct application layer protocol such as http, ftp, smtp, snmp protocols etc.
+2. Transport layer : it receives the data from the application layer which is above transport layer. it acts as a backbone between the host's system connected with each other and it mainly concerns the transmission of data. tcp and udp are mainly used as a transport layer protocols
+3. network or internet layer: this layer sends the packets a cross the network. packets mainly contain source, destination ip addresses and actual data to be transmitted
+4. network interface layer: it is the lowest layer of tcp, ip model. it trnasfers the packts between differnect hosts. it includes encapsulation of ip packets into frames, mapping ip addresses to physical hardware devices etc.
+
+## What is http and what port does it use?
+http is htpertext transfer protocol and it is responsible for web content. many web pages are using http to transmit the web content and allow the display and navigation of hypertext. it is primary protocol and the default port used is tcp port 80.
+
+## what is https and what port does it use?
+https is a secure http. https is sued for encrypted and secure communitaion over a computer network to prevent man in the middle attack and sniffing
+
+in a bi-directional communactions, https protocol encrypts the commmunication so that tapmpering of the data get avoided with the help of a ssl certificate, it verifies if the requested server connection is a valid connection or not. https uses tcp with port 443.
+
+## what is an ip address?
+ip address stands for internet protocol address. it is a unique string of numbers used to specify the location of a computer or other device in a network using tcp/it. it is represented by a serice of four decimal numbers, seperated by dots. 
 
 
