@@ -60,4 +60,11 @@ in a bi-directional communactions, https protocol encrypts the commmunication so
 ## what is an ip address?
 ip address stands for internet protocol address. it is a unique string of numbers used to specify the location of a computer or other device in a network using tcp/it. it is represented by a serice of four decimal numbers, seperated by dots. 
 
+## How can you identify the ip of a workstation
+ifconfig/ipconfig
+
+## what is the differnece between ipv4 vs ipv6
+ipv2 is a 32-bit address scheme which allows a total 2^32 number of address.
+ipv6 is 4 times larger than ipv4. it is 128 bit address scheme and allows total 2^128 number of addresses.
+
 
