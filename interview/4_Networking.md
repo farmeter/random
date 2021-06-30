@@ -67,4 +67,8 @@ ifconfig/ipconfig
 ipv2 is a 32-bit address scheme which allows a total 2^32 number of address.
 ipv6 is 4 times larger than ipv4. it is 128 bit address scheme and allows total 2^128 number of addresses.
 
-
+## Explain DNS?
+dns stands for domain nameing server. dns acts as a translator between domain names and ip address. 
+as human remember names, the coumputer understands only humbers.
+generally, we assign names to websites and computers like google.com wikipedia.com etc. when we type such names
+the dns translates it into numbers and excute the requests.
